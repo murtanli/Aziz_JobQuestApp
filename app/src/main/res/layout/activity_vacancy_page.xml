@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Vacancy_title"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:text="Название вакансии"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Vacancy_salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Vacancy_title"
+            android:layout_marginTop="8dp"
+            android:text="Зарплата"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/Company_info_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Vacancy_salary"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded_corners"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/Company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Название компании"
+                android:textColor="@color/green"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Company_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Город"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button_otclick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:text="Отклик" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/Vacancy_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Company_info_layout"
+            android:layout_marginTop="16dp"
+            android:text="Описание вакансии"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Vacancy_text"
+            android:layout_marginTop="12dp"
+
+            android:text="Дата публикации"
+            android:textStyle="bold"
+            android:textColor="@color/black_light"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

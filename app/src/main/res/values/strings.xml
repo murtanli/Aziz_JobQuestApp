@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">JobQuestApp</string>
+    <string name="title_home">Отклики</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="enter">Войти</string>
+    <string name="password">Пароль</string>
+    <string name="acc">Нет аккаунта ?</string>
+    <string name="login">Логин</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_search">поиск</string>
+    <string name="vacancy_title_search">Вакансии</string>
+    <string name="vacancy_title_home">Отклики на вакансии</string>
+    <string name="name">Имя</string>
+    <string name="lastname">Фамилия</string>
+    <string name="email">Email</string>
+    <string name="number_phone">Номер телефона</string>
+    <string name="about_me">О себе</string>
+</resources>
